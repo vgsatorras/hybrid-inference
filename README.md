@@ -1,6 +1,8 @@
 # Combining Generative and Discriminative Models for Hybrid Inference
 Implementation of [Combining Generative and Discriminative Models for Hybrid Inference](https://arxiv.org/abs/1906.02547) on Python3, Pytorch 1.3
 
+Dependencies: numpy, scipy, filterpy, pandas, pytorch
+
 ## Linear dynamics
 ```python3.6 exp1_linear.py```
 
