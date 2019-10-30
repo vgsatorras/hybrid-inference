@@ -157,7 +157,7 @@ class G_E_GNN(nn.Module):
 
 
 def unsorted_segment_sum(data, segment_ids, num_segments):
-    """Custom PyTorch op to replicate TensorFlow's `unsorted_segment_sum`."""
+    """This part of the code was kindly provided by Thomas Kipf (https://github.com/tkipf)"""
     result_shape = (num_segments, data.size(1))
     result = data.new_full(result_shape, 0)  # Init empty result tensor.
     segment_ids = segment_ids.unsqueeze(-1).expand(-1, data.size(1))
