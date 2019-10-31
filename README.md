@@ -4,14 +4,14 @@ Implementation of [Combining Generative and Discriminative Models for Hybrid Inf
 Dependencies: numpy, scipy, filterpy, pandas, pytorch
 
 ## Linear dynamics
-```python3.6 exp1_linear.py```
+```python3 exp1_linear.py```
 
 ## Non-linear dynamics - Lorenz attractor
 
 ```
-python exp5_lorenz.py --taylor_K 0
-python exp5_lorenz.py --taylor_K 1
-python exp5_lorenz.py --taylor_K 2
+python3 exp5_lorenz.py --taylor_K 0
+python3 exp5_lorenz.py --taylor_K 1
+python3 exp5_lorenz.py --taylor_K 2
 ```
 
 
