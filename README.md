@@ -9,9 +9,9 @@ Dependencies: numpy, scipy, filterpy, pandas, pytorch
 ## Non-linear dynamics - Lorenz attractor
 
 ```
-python3 exp5_lorenz.py --taylor_K 0
-python3 exp5_lorenz.py --taylor_K 1
-python3 exp5_lorenz.py --taylor_K 2
+python3 exp2_lorenz.py --taylor_K 0
+python3 exp2_lorenz.py --taylor_K 1
+python3 exp2_lorenz.py --taylor_K 2
 ```
 
 
